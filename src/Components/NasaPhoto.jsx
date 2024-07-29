@@ -29,7 +29,7 @@ const NasaPhoto = () => {
 
     return (
         <>
-             <div className="min-h-screen bg-cover bg-center"  style={{ backgroundImage: "url('https://media.giphy.com/media/GC7C2Fi902BDG/giphy.gif')" }}>
+             <div className="h-screen w-full fixed left-0 top-0 -z-[10] flex items-center justify-center bg-cover bg-fixed bg-center" style={{ backgroundImage: "url('https://www.bing.com/th/id/OGC.0b4121fa0dc4d2c5fa4e13189ecb1003?pid=1.7&rurl=https%3a%2f%2fcdn.wallpapersafari.com%2f72%2f62%2fpyxBvN.gif&ehk=U%2bJtfJRgqFm9wXoCQyhezfCLvRl%2bwTJ1NpIqzcrjPfs%3d')" }}>
                 <div className="container mx-auto p-8 flex justify-center items-center min-h-screen">
                     <div className="bg-white bg-opacity-80 shadow-md rounded-lg overflow-hidden w-full max-w-2xl">
                         <div className="nasa-photo cursor-pointer" onClick={toggleModal}>
